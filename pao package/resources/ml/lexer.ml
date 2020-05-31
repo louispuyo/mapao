@@ -50,9 +50,10 @@ let json =
 
 let rendered =
   Mustache.render tmpl json;; *)
+  type name = string
 
+  type dotted_name = string list
 
 let array1 = [|1,4,2,4|];;
 array1;;
 (array1.(0));;
-
