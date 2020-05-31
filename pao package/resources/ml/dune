@@ -1,0 +1,4 @@
+(executable
+ (name mustache_example)
+ (modules mustache_example)
+ (libraries mustache ezjsonm))
